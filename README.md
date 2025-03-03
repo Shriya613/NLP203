@@ -1,6 +1,6 @@
 ## NLP-203 Natural Language Processing III ##
 
-he course is taught by __Dr. Beth Anne Hockey__ , Professor (NLP MS Program) at __The University of California - Santa Cruz__.
+The course is taught by __Dr. Beth Anne Hockey__ , Professor (NLP MS Program) at __The University of California - Santa Cruz__.
 
 The teaching assistant for this course is __Nilay Patel__, III yr Ph.D student.
 
