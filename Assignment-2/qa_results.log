@@ -1,0 +1,84 @@
+Testing In-Domain 'In the Wild' Passages
+
+Passage 1:
+The Eiffel Tower is a wrought-iron lattice tower located in Paris, France. 
+        It is named after the engineer Gustave Eiffel, whose company designed and built the tower. 
+        It was constructed between 1887 and 1889 as the entrance arch for the 1889 World's Fair.
+
+Question: Who designed the Eiffel Tower?
+Answer: Gustave Eiffel (Confidence: 0.9226)
+
+Question: When was the Eiffel Tower constructed?
+Answer: between 1887 and 1889 (Confidence: 0.5885)
+
+Question: Where is the Eiffel Tower located?
+Answer: Paris, France (Confidence: 0.9153)
+
+Question: What is the Eiffel Tower made of?
+Answer: wrought-iron (Confidence: 0.5363)
+
+--------------------------------------------------------------------------------
+
+Passage 2:
+Albert Einstein was a theoretical physicist, born in Germany in 1879. 
+        He developed the theory of relativity, one of the two pillars of modern physics. 
+        He won the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect.
+
+Question: Who developed the theory of relativity?
+Answer: Albert Einstein (Confidence: 0.9567)
+
+Question: When did Einstein win the Nobel Prize?
+Answer: 1921 (Confidence: 0.9710)
+
+Question: What is the photoelectric effect?
+Answer: Albert Einstein (Confidence: 0.1286)
+
+--------------------------------------------------------------------------------
+
+Testing Edited Passages
+
+Passage 1:
+The Eiffel Tower is a steel structure located in Berlin, Germany. 
+        It was designed by Karl Benz, a famous German engineer. The tower was initially intended 
+        to be a radio broadcast antenna before being turned into a historical monument.
+
+Question: Who designed the Eiffel Tower?
+Answer: Karl Benz (Confidence: 0.9843)
+
+Question: Where is the Eiffel Tower located?
+Answer: Berlin, Germany (Confidence: 0.9449)
+
+--------------------------------------------------------------------------------
+
+Testing Out-of-Domain Passages
+
+Passage 1:
+COVID-19 is caused by the SARS-CoV-2 virus. Vaccines like Pfizer-BioNTech and Moderna 
+        were developed to prevent severe illness. The virus spreads through respiratory droplets.
+
+Question: What causes COVID-19?
+Answer: SARS-CoV-2 virus (Confidence: 0.6754)
+
+Question: Who developed the vaccine?
+Answer: Pfizer-BioNTech (Confidence: 0.3537)
+
+Question: How does the virus spread?
+Answer: through respiratory droplets (Confidence: 0.7075)
+
+--------------------------------------------------------------------------------
+
+Passage 2:
+User1: Just watched 'Interstellar', such a mind-blowing movie! 
+        User2: Yeah, Christopher Nolan really knows how to direct. The visuals were incredible.
+
+Question: Who directed Interstellar?
+Answer: Christopher Nolan (Confidence: 0.8656)
+
+Question: What movie did User1 watch?
+Answer: Interstellar (Confidence: 0.6370)
+
+Question: What did User2 think of the visuals?
+Answer: incredible (Confidence: 0.4698)
+
+--------------------------------------------------------------------------------
+
